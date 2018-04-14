@@ -17,7 +17,7 @@ public class TranslationServlet extends HttpServlet {
         dictionary.put("book", "Quyển vở");
         dictionary.put("computer", "Máy tính");
 
-        String search = request.getParameter("search");
+        String search = request.getParameter("txtSearch");
 
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
